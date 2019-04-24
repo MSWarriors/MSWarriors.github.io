@@ -1,0 +1,55 @@
+body{
+	background: black !important;
+}
+
+*{
+	font-family: 'Walter Turncoat', cursive;
+
+}
+
+.logo{
+	width: 200px;
+	transform: rotateZ(-4deg);
+	position: fixed;
+	z-index: 3;
+	top: -88px;
+	right: 50px;
+	margin-top: 80px;
+}
+
+.navbar{
+	position: fixed;
+	z-index: 2;
+	overflow: visible;
+	height: 60px;
+	transform: rotateZ(-0.2deg);
+	width: 110%;
+	margin-left: -10px;
+	background-color: DarkGoldenRod !important;
+	border: 2px black solid;
+}
+
+.nav-link{
+	color: black !important;
+	font-size: 18pt;
+}
+
+.navbar-nav{
+	margin-left: 20px;
+}
+.okojumbtorona{
+	margin-top: 58px;
+	
+	position: relative;
+	z-index: 1;
+}
+.jumbotron{
+	height: 400px;
+	background: url('leoMSW/MSW_concept_band_evening.jpg') no-repeat 37% 24% !important;
+}
+
+.jumbotrontext{
+	margin-top: 180px;
+	margin-left: 70px;
+	color: black;
+}
