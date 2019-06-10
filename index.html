@@ -1,44 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Mariachi Warriors</title>
+	<title>Mariachi Sentai Warriors</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="customstyle.css">
-	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+
+	<link rel="stylesheet" type="text/css" href="stil.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Pangolin&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
 </head>
 <body>
-	
-	<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarsExample04">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item pl-4">
-        <a class="nav-link" href="#">Project<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item pl-5">
-        <a class="nav-link" href="#">Gallery</a>
-      </li>
-      <li class="nav-item pl-5">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<img class="logo" src="logos/logo-alfa-leo23.png">
-	
-	<div class="okojumbtorona">
-	<div class="jumbotron jumbotron-fluid">
-  <div class="container jumbotrontext">
-    <h1 class="display-4">Do Androids Dream of Electric Sheep?</h1>
-    <p class="lead"></p>
-  </div></div>
+	<nav class="pozadina-navigacije"></nav>
+    <nav class="navigacija">
+        <ul>
+                <li><a onClick="document.getElementById('about').scrollIntoView();" style="color: #ca9316;">About</a></li>
+                <li><a onClick="document.getElementById('plan').scrollIntoView();" style="color: #25a774;">Plan</a></li>
+                <li><a onClick="document.getElementById('contact').scrollIntoView();" style="color: #da463c;">Contact</a></li>
+        </ul>
+    </nav>
+	<a href="https://www.instagram.com/mariachisentaiwarriors/" target="_blank"><img src="instagram_logo_alpha.png" class="instagram-sticker"></a>
+	<img src="logos/logo-leo.png" class="logo">
+	<img src="media/annecy_sticker_v2_alpha.png" class="annecy-sticker">
+	<img src="Desktop/annecy_sticker_desktop.png" class="annecy-sticker-desktop">
+
+
+	<div class="video-container">
+  <video autoplay loop muted src="media/desktop/Longboard_desktop_web.mp4"></video>
 </div>
-</body>
 
+<div class="video-mobile-container">
+  <video autoplay loop muted src="media/Longboard_mobile_web.mp4"></video>
+</div>
+
+	
+
+
+	<div class="container-swiper">
+		<img src="media/swiper_v2_alpha.png" class="cover-text-container">
+	</div>
+	<div class="clear-object"></div>
+	<div class="rest-container">
+		<div style="position: relative;">
+		<h1 class="about-text-naslov">About the Project</h1>
+		<div id="about" class="scroll-anchor"></div>
+		<p class="about-text">The project began in June 18th 2018.  When we (two Gobelins students; Josephine and Karlo Pavicic-Ravlic) (link names to socials?) decided to develop a tv series which would clash the Japanese kaiju culture with Mexican music. Our main goal is to create an animated world which can deal with both fun cartoony action and complex sociological issues that young adults face.
+		</p>
+		</div>
+
+		<div class="empty-200px"></div>
+		<div style="position: relative;">
+		<h1 class="plava about-text-naslov">Our Plan</h1>
+		<div id="plan" class="scroll-anchor"></div>
+		<p class="plava about-text">Our current plan is to create a one minute pilot trailer that will be used for tv pitching. After pitching is over, we plan to publicly release it together with a network announcement (Hopefully! If we're lucky enough to get it).</p>
+		<ul>
+			<li>Project starts on June 18th 2018</li>
+			<li>Vision developed</li>
+			<li>Modeling begins</li>
+			<li>Rigging begins</li>
+			<li>Instagram created</li>
+			<li>Contacted musician</li>
+			<li>1st instagram mini-ad</li>
+			<li>Start of layouting</li>
+			<li>2nd instagram mini-ad</li>
+			<li>Website launch</li>
+		</ul>
+		</div>
+
+
+		<div class="empty-200px"></div>
+		<div style="position: relative;">
+		<h1 class="about-text-naslov">Contact Us</h1>
+		<div id="contact" class="scroll-anchor"></div>
+
+		<p class="plava about-text">We're currently in search
+		of a way to bring our project onto tv.</p>
+		<br>
+		<p class="plava about-text"> If you are a producer, production company, or a publisher
+		feel free to contact us at contact@mariachisentaiwarriors.com</p>
+		</div>
+
+	</div>
+	<div class="empty-200px-sak"></div>
+	
+	<div class="empty-200px-sak"></div>
+	
+	<footer><hr>Mariachi Sentai Warriors 2019<br>Webdesign by: Leo Vitasović</footer>
+
+	 <script type="text/javascript">
+		$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+    var width = $(window).width();
+    var height =$(window).height();
+     //>=, not <=
+    if (width<602 && scroll >= 0.15*height) {
+        //clearHeader, not clearheader - caps H
+        $(".rest-container").addClass("rest-container-after ");
+        $(".empty-200px-sak").addClass("sakrij");
+    }else{
+    	$(".rest-container").removeClass("rest-container-after");
+    	}
+    	$(".empty-200px-sak").removeClass("sakrij");
+	}
+); //missing );
+	/*
+	function changeCss () {
+      var bodyElement = document.querySelector(".rest-container");
+      //this.scrollY > 100 ? bodyElement.style.margin-top = '40px'  : bodyElement.style.margin-top = '0'
+      this.scrollY >100 ? bodyElement.addClass("rest-container-after");
+    }
+
+window.addEventListener("scroll", changeCss , false); */
+	</script>
+</body>
 </html>
