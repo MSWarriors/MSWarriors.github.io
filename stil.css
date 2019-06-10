@@ -14,6 +14,10 @@
 	display: none;
 }
 
+.plava{
+		color: rgb(41,125,189);
+}
+
 .pozadina-navigacije{
 	display: none;
 }
@@ -49,15 +53,19 @@
 	margin-left: 15px;
 	margin-top: 15px;
 	float: left;
-	z-index: 3;
-	position: relative;
+	z-index: 2;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
 .annecy-sticker{
-	max-width: 230px;
+	max-width: 130px;
 	width: 100%;
 	float: right;
 	z-index: 2;
-	position: relative;
+	position: fixed;
+	top: 0;
+	right: 0;
 }
 
 .annecy-sticker-desktop{
@@ -87,7 +95,12 @@
 }*/
 
 .rest-container{
-	position: fixed;
+	margin-top: 85vh;
+	background-color: white;
+    z-index: 3;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .rest-container-after{
 	position: relative;
@@ -186,7 +199,6 @@ footer{
 		display: block;
 		position: fixed;
 	    overflow: hidden;
-	    top: 100px;
 	    z-index: 0;
 	    height: 100vh;
 	    left: 0px;
@@ -262,9 +274,6 @@ footer{
 		left: 0;
 	
 	}
-	.plava{
-		color: rgb(41,125,189);
-	}
 	.logo{
 		top: 10px;
 		margin: 0 auto;
@@ -307,7 +316,10 @@ footer{
 		    margin-bottom: -30px;
 		    width: 100%;
 		    left: 0px;
+		    z-index: 0;
 	}
+
+}
 	.cover{
 		left: 0;
 		display: run-in;
