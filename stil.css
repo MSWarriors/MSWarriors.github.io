@@ -213,11 +213,22 @@ footer{
   grid-template-rows: 1fr 1fr;
   grid-template-areas: "img1 img2 img3" "img4 img5 img6";
   grid-area: Gallery;
+  margin-left: 10%;
+  width: 100%;
 }
 
 .Gallery div{
-height: 170px;
+height: 13vw;
 overflow: hidden;	
+}
+
+.Gallery img{
+height: 15vw;
+margin: auto;
+top: -100%;
+right: -100%;
+bottom: -100%;
+left: -100%;
 }
 
 .img6 { grid-area: img6; }
