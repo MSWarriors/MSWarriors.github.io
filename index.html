@@ -8,6 +8,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
 
+	<--! Nano Gallery -->
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="stil.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,12 +57,17 @@
 		<div id="about" class="scroll-anchor"></div>
 		<p class="about-text"> <font style="color:#dfa73a; font-size: 20px;"> Mariach Sentai Warriors </font> is a 3D animated series that we have been working on since June 18th 2018. The idea was to develop a tv series which would clash the Japanese kaiju culture with Mexican music. Our main goal is to create an animated world which can deal with both stylized cartoony action and complex sociological issues that young adults face as they enter adulthood. The show is aimed at more mature audience as it will tackle darker themes.
 		</p>
-		<p class="about-text">
-
-		<font style="color:#25a774;">Joséphine Meis</font> holds a diploma of Concepteur et Realisateur de Film d'Animation from Gobelins, and a Diplome des Metiers d'Art from Marseille.</p>
 
 		<p class="about-text">
-		<font style="color:#da463c;">Karlo Pavičić-Ravlić</font> graduated at Gobelins as a Master of Character Animation and Animated Filmmaking. Prior to this he acquired a Bachelor diploma for animation at the Acedemy of Fine Arts in Zagreb.</p>
+			<font style="color:#da463c;">Karlo Pavičić-Ravlić</font> graduated at Gobelins as a Master of
+			Character Animation and Animated Filmmaking. Prior to this he acquired a Bachelor diploma for
+			animation at the Acedemy of Fine Arts in Zagreb.</p>
+
+		<p class="about-text">
+		<font style="color:#25a774;">Joséphine Meis</font> holds a diploma of Concepteur et Realisateur de
+			Film d'Animation from Gobelins, and a Diplome des Metiers d'Art from Marseille. She has left the project after
+		finishing the pitch trailer.</p>
+
 
 		
 		
@@ -71,18 +80,23 @@
 		<p class="plava about-text">
 
 
-		Our current plan is to create a one minute pilot trailer that will be used for tv pitching. After pitching is over, we plan to publicly release it together with a network announcement.</p>
+		Our current plan is to create a one minute pilot trailer that will be used for tv pitching.
+			After pitching is over, we plan to publicly release it together with a network announcement.</p>
 
-		<p class="plava about-text">We've entered the animation now phase and will have our first pitch trailer finished by end of September 2019.</p>
+		<p class="plava about-text">We've have now entered the screenwriting phase. Pitching is planned for early summer till
+		end of 2021.</p>
 
+
+				<div>
 		<ul>
-			<li>2018</li>
+			<li><b>2018</b></li>
 			<li>Project starts on June 18th 2018</li>
 			<li>End of summer- Vision developed</li>
 			<li>September - Modeling begins</li>
 			<li>October - Rigging begins</li>
 			<li>Christmas - Instagram created</li>
-			<li>2019</li>
+			<br>
+			<li><b>2019</b></li>
 			<li>January - Contacted musician</li>
 			<li>February - 1st instagram mini-ad</li>
 			<li>March - Start of layouting, Rig testing</li>
@@ -91,13 +105,17 @@
 			<li>July - Animation</li>
 			<li>October - Lighting and Rendering setup</li>
 			<li>November,December - Compositing available shots</li>
-			<li>2020</li>
+			<br>
+			<li><b>2020</b></li>
 			<li>January - Marichka Besse and Marion Fu join the team as producers and work on the prod. bible</li>
 			<li>February ~ April - rough story outline for all episodes</li>
 			<li>~~covid and life intermission~~</li>
-			<li>2021</li>
+			<br>
+			<li><b>2021</b></li>
 			<li>Screenwriting continues...</li>
 		</ul>
+				</div>
+
 
 
 
@@ -112,21 +130,39 @@
 		<div style="position: relative;">
 		<h1 class="about-text-naslov">Gallery</h1>
 		<div id="gallery" class="scroll-anchor"></div>
-		
-		<div class="grid-container">
-			  <div class="Gallery">
-				<div class="img6"><img src="images/concept_hub_RTK.png"></div>
-				<div class="img5"><img src="images/jumpovercar.png"></div>
-				<div class="img4"><img src="images/albinoscreen.jpg"></div>
-				<div class="img1"><img src="images/Banner_1920x1150.png"></div>
-				<div class="img2"><img src="images/dreads_nice_playing.png"></div>
-				<div class="img3"><img src="images/carfight.png"></div>
-			  </div>
+
+		<div class="MSWGal">
+
+
+			<div ID="MSWGallery" data-nanogallery2='{
+        "itemsBaseURL": "http://mariachisentaiwarriors.com/images/gallery/",
+        "thumbnailWidth": "auto",
+        "thumbnailBorderVertical": 0,
+        "thumbnailBorderHorizontal": 0,
+        "thumbnailLabel": {
+          "position": "overImageOnBottom",
+          "display": false
+        },
+        "thumbnailHoverEffect2": "imageSepiaOff",
+        "thumbnailAlignment": "center",
+        "thumbnailOpenImage": true
+      }'>
+				<a href="Banner_1920x1150.png" data-ngthumb="thumbs/Banner_1920x1150_thumb.png" data-ngdesc="">1</a>
+				<a href="Destini.jpg" data-ngthumb="thumbs/Destini_thumb.jpg" data-ngdesc="">2</a>
+				<a href="concept_hub_RTK.png" data-ngthumb="thumbs/concept_hub_RTK_thumb.png" data-ngdesc="">4</a>
+				<a href="screen-1.png" data-ngthumb="thumbs/screen-1_thumb.png" data-ngdesc="">5</a>
+				<a href="screen-4png" data-ngthumb="thumbs/screen-4_thumb.png" data-ngdesc="">6</a>
+				<a href="screen-8.png" data-ngthumb="thumbs/screen-8_thumb.png" data-ngdesc=""></a>
+				<a href="screen-9.png" data-ngthumb="thumbs/screen-9_thumb.png" data-ngdesc=""></a>
+				<a href="screen-14.png" data-ngthumb="thumbs/screen-14_thumb.png" data-ngdesc=""></a>
+
+			</div>
 		</div>
+
 		</div>
 
 
-		<img style="width: 80vw" src="media/2019.jpg">
+
 
 		<div class="empty-200px"></div>
 		<div style="position: relative;">
@@ -139,8 +175,12 @@
 		feel free to contact us at <font style="color: black;"> contact@mariachisentaiwarriors.com</font></p>
 		</div>
 
+		<center>
+		<img style="width: 30vw" src="media/2019.jpg">
+		</center>
 
-		<footer><hr>Mariachi Sentai Warriors 2019<br>Webdesign by: Leo Vitasović</footer>
+
+		<footer><hr>Mariachi Sentai Warriors 2021<br>Webdesign by: Leo Vitasović & Karlo Pavicic Ravlic</footer>
 	</div>
 	
 
