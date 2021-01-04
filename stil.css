@@ -31,6 +31,7 @@
 
 .pozadina-navigacije{
 	display: none;
+
 }
 
 .video-container{
@@ -319,20 +320,20 @@ left: -100%;
 	}
 
 	.pozadina-navigacije{
-	    top: -11px;
-	    left: 0px;
-	    margin: 0 auto;
-	    z-index: 3;
-	    position: fixed;
-	    display: block;
-	    width: 100%;
-	    height: 400px;
-	    background: url(media/desktop/menu_bg.png);
-	    background-size: auto;
-	    background-repeat: no-repeat;
-	    background-position-y: -100px;
-	    color: white;
-	    pointer-events: none;
+        top: -11px;
+        left: 0px;
+        margin: 0 auto;
+        z-index: 3;
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 400px;
+        background: url(media/desktop/menu_bg.png);
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-position-y: 5px;
+        color: white;
+        pointer-events: none;
 	}
 
 	.navigacija{
@@ -383,7 +384,7 @@ left: -100%;
 	.logo{
 		top: 10px;
 		margin: 0 auto;
-		width: 80px !important;
+		width: 10vw;
 		display: block;
 		z-index: 3;
 		position: fixed;
@@ -417,7 +418,6 @@ left: -100%;
 	.rest-container{
 		    margin-top: 290px;
 		    display: block;
-		    position: absolute;
 		    background: white;
 		    margin-bottom: -30px;
 		    width: 100%;
