@@ -164,6 +164,8 @@ list-style: none;
 .timeline-bullets li{
     position: relative;
     padding: 5px;
+    font-style: italic;
+    color: grey;
 }
 
 .timeline-bullets li:before {
