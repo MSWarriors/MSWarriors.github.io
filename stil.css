@@ -94,14 +94,28 @@
 	position: relative;
 }*/
 
+@media only screen and (max-width: 600px) {
 .rest-container{
-	margin-top: 90vh;
-	background-color: white;
-    z-index: 3;
+    margin-top: 50vw; !important
+}
+}
+
+
+.rest-container{
     position: relative;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 30vw;
+    display: block;
+    background: white;
+    margin-bottom: -30px;
+    width: 100%;
+    left: 0px;
+    z-index: 0;
+    border-radius: 30px;
 }
+
+
 .rest-container-after{
 	position: relative;
 	margin-top: 220px;
@@ -417,16 +431,7 @@ left: -100%;
 		z-index: 3;
 		display: inline-block;
 	}
-	.rest-container{
-		    margin-top: 30vw;
-		    display: block;
-		    background: white;
-		    margin-bottom: -30px;
-		    width: 100%;
-		    left: 0px;
-		    z-index: 0;
-		    border-radius: 30px;
-	}
+
 
 }
 	.cover{
