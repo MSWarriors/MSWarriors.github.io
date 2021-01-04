@@ -26,6 +26,7 @@
 
 .plava{
 		color: rgb(41,125,189);
+		text-align: justify;
 }
 
 .pozadina-navigacije{
@@ -127,6 +128,7 @@
 	padding: 0 4px;
 }
 .about-text{
+    text-align: justify;
 	clear: both;
 	display: block;
 	width: 100%;
@@ -150,6 +152,40 @@
 li{
 	font-size: 4vw;
 	margin-left: 8px;
+}
+
+.timeline-bullets .year{
+color: #297dbd;
+}
+.timeline-bullets ul{
+list-style: none;
+}
+
+.timeline-bullets li{
+    position: relative;
+    padding: 5px;
+}
+
+.timeline-bullets li:before {
+    content: '';
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #297dbd;
+    position: absolute;
+    left: -12px;
+    top: 50%;
+    transform: translateY(-40%);
+}
+
+.timeline-bullets li:not(:last-child):after {
+    content: '';
+    width: 3px;
+    height: 100%;
+    background: #297dbd;
+    position: absolute;
+    left: -7px;
+    top: 50%;
 }
 
 .empty-200px{
