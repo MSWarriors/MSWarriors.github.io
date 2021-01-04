@@ -298,7 +298,7 @@ left: -100%;
         background: #d9e1ff;
         position: absolute;
         padding: 0px;
-        height: 25vw;
+        height: 30vw;
         margin-top: -20px;
 	}
 
@@ -419,7 +419,7 @@ left: -100%;
 		display: inline-block;
 	}
 	.rest-container{
-		    margin-top: 290px;
+		    margin-top: 30vw;
 		    display: block;
 		    background: white;
 		    margin-bottom: -30px;
