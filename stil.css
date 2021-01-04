@@ -50,7 +50,7 @@
 	 width: 100%;
 	 left: 0px;
 	 z-index: 1;
-	 margin-top: -100px;
+	 margin-top: -160px;
 	}
 
 .navigacija{
@@ -78,7 +78,7 @@
 	width: 100%;
 	z-index: 4;
 	position: absolute;
-	top: 310px;
+	top: 410px;
 	display: block;
 }
 /*
@@ -94,12 +94,6 @@
 	position: relative;
 }*/
 
-@media only screen and (max-width: 600px) {
-.rest-container{
-    margin-top: 50vw; !important
-}
-}
-
 
 .rest-container{
     position: relative;
@@ -113,6 +107,28 @@
     left: 0px;
     z-index: 0;
     border-radius: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+.rest-container{
+    margin-top: 140vw;
+}
+}
+
+.instagram-sticker-mobile{
+        width: 10vw;
+        position: absolute;
+        top: 10px;
+        z-index: 2;
+        right: 20vw;
+    }
+
+.twitter-sticker-mobile {
+    width: 10vw;
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+    right: 8vw;
 }
 
 
@@ -323,6 +339,7 @@ left: -100%;
 	    width: 100%;
 	    left: 0px;
 	    z-index: 1;
+	    margin-top: -200px;
 	}
 
 	.pozadina-navigacije{
