@@ -396,7 +396,7 @@ left: -100%;
 	}
 
 	.scroll-anchor{
-		position: absolute;
+		position: relative;
 		top: -140px;
 		left: 0;
 	
